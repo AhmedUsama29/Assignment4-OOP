@@ -17,6 +17,9 @@ namespace AccessModifiers
             E = e;
         }
 
+        public TypeC TypeC { get; set; } // 1-1
+        public List<TypeC> TypeCs { get; set; } // 1 - M
+
         public int A { get; set; } //public (no inheretance) 
 
         private int B { get; set; } // private (no inheretance)

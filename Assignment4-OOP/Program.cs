@@ -1,4 +1,6 @@
-﻿namespace Assignment4_OOP
+﻿using Assignment4_OOP.Association.Composition;
+
+namespace Assignment4_OOP
 {
     internal class Program
     {
@@ -26,9 +28,11 @@
             //Cat = Child
             /////////////////////////////////////////////////////////////////////////*/
             
-            Car car = new Car(1,2,3,4,5,"Toyota", 2020, 200);
+            //Car car = new Car(1,2,3,4,5,"Toyota", 2020, 200);
 
-            Console.WriteLine(car);
+            //Console.WriteLine(car);
+
+            Product P = new Product() { Name = "Coffee"};
         }
     }
 }
