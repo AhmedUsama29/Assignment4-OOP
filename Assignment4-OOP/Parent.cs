@@ -14,10 +14,10 @@ namespace Assignment4_OOP
             Y = y;
         }
 
-        public Parent() //parameterless constructor
-        {
+        //public Parent() //parameterless constructor
+        //{
             
-        }
+        //}
 
         public int X { get; set; }
         public int Y { get; set; }
@@ -27,7 +27,7 @@ namespace Assignment4_OOP
             return $"X: {X}, Y: {Y}";
         }
 
-        public int Product()
+        public virtual int Product()
         {
             return X * Y;
         }
