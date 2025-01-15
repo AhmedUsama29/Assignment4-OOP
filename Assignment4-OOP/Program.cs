@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-
+            /*////////////////////////////////////////////////////////////////////
             Console.WriteLine("============Parent============");
             Parent parent = new Parent(1, 2);
 
@@ -24,7 +24,11 @@
             //Animal = Parent
             //Dog = Child
             //Cat = Child
+            /////////////////////////////////////////////////////////////////////////*/
+            
+            Car car = new Car(1,2,3,4,5,"Toyota", 2020, 200);
 
+            Console.WriteLine(car);
         }
     }
 }
