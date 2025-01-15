@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AccessModifiers
 {
-    internal class TypeA
+    public class TypeA
     {
         public TypeA(int a, int b, int c, int d, int e)
         {
