@@ -79,54 +79,53 @@ namespace Assignment4_OOP
 
             #region Operator Overloading
 
-            Complex c1 = new Complex();
-            c1.Real = 5;
-            c1.Imaginary = 3;
-            Console.WriteLine($"Complex 1 ===> {c1}");
-            Complex c2 = new Complex();
-            c2.Real = 2;
-            c2.Imaginary = 4;
-            Console.WriteLine($"Complex 2 ===> {c2}");
+            //Complex c1 = new Complex();
+            //c1.Real = 5;
+            //c1.Imaginary = 3;
+            //Console.WriteLine($"Complex 1 ===> {c1}");
+            //Complex c2 = new Complex();
+            //c2.Real = 2;
+            //c2.Imaginary = 4;
+            //Console.WriteLine($"Complex 2 ===> {c2}");
 
-            Complex c3 = c1 + c2;
-            Console.WriteLine($"Complex 3 ===> {c3}");
+            //Complex c3 = c1 + c2;
+            //Console.WriteLine($"Complex 3 ===> {c3}");
 
-            Complex c4 = c1 + 5;
+            //Complex c4 = c1 + 5;
 
-            Console.WriteLine($"Complex 4 ===> {c4}");
+            //Console.WriteLine($"Complex 4 ===> {c4}");
 
-            Complex c5 = 5 + c2;
+            //Complex c5 = 5 + c2;
 
-            Console.WriteLine($"Complex 5 ===> {c5}");
+            //Console.WriteLine($"Complex 5 ===> {c5}");
 
-            Console.WriteLine("-------------------unary------------------");
-            #region Unary operators
+            //Console.WriteLine("-------------------unary------------------");
+            //#region Unary operators
 
-            Complex c6 = c5++;
+            //Complex c6 = c5++;
 
-            Console.WriteLine($"Complex 6 ===> {c6}");
+            //Console.WriteLine($"Complex 6 ===> {c6}");
 
-            Complex c7 = ++c6;
+            //Complex c7 = ++c6;
 
-            Console.WriteLine($"Complex 7 ===> {c7}");
+            //Console.WriteLine($"Complex 7 ===> {c7}");
 
 
-            Console.WriteLine("----------<&>-------------");
+            //Console.WriteLine("----------<&>-------------");
 
-            if (c1 > c2)
-            {
-                Console.WriteLine("c1 > c2");
-            }
-            else
-            {
-                Console.WriteLine("c1 < c2");
-            }
-
-            #endregion
+            //if (c1 > c2)
+            //{
+            //    Console.WriteLine("c1 > c2");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("c1 < c2");
+            //}
 
             #endregion
 
             #endregion
+
         }
     }
 }
